@@ -1,2 +1,2 @@
 # SqlLiteTutorials
-These are my personal notes on SqlLite.
+These are my personal notes on SqlLite...
