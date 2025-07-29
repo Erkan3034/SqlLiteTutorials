@@ -33,8 +33,8 @@ class Kutuphane():
 
     def baglanti_olustur(self):
         # Veritabanına bağlanır ve tabloyu oluşturur (eğer yoksa).
-        self.baglanti = sqlite3.connect("library.db")  # Veritabanı bağlantısı oluşturulur.
-        self.cursor = self.baglanti.cursor()  # SQL sorgularını yürütmek için cursor nesnesi alınır.
+        self.baglanti = sqlite3.connect("library.db")  # Veritabanı bağlantısı oluştur
+        self.cursor = self.baglanti.cursor()  # SQL sorgularını yürütmek için cursor nesnesini al
 
         sorgu = "CREATE TABLE IF NOT EXISTS kitaplar(isim TEXT , yazar TEXT , yayınevi TEXT , tur TEXT , baski INT)"
         # Eğer 'kitaplar' tablosu yoksa oluşturulur.
